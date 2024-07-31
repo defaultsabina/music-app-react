@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.c-player {
+  display: block;
+  margin: 0px auto;
+  padding: 30px;
+
+}
+
+ h4 {
+  color: #fff;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 500;
+  text-align: center;
+}
+
+
+
+p span {
+  font-weight: 400;
+  width: fit-content;
+}
+
+.c-player--details .details-img {
+  position: relative;
+  width: fit-content;
+  margin: 0 auto;
+
+}
+
+.c-player--details .details-img img {
+  display: block;
+  margin: 50px auto;
+  object-fit: contain;
+  width: 100%;
+  max-width: 250px;
+  border-radius: 50%;
+  box-shadow: 6px 6px 12px rgba(0, 0, 0, 0.8),
+    -6px -6px 12px rgba(255, 255, 255, 0.4);
+}
+
+
+.c-player--details .details-title {
+  color: black;
+  font-size: 28px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+.c-player--details .details-artist {
+  color: #aaa;
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.c-player--controls {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+
+}
+
+.c-player--controls .play-btn {
+  display: flex;
+  margin: 0 30px;
+  padding: 20px;
+  border-radius: 50%;
+ 
+  border: none;
+  outline: none;
+  background-color: black;
+  color: #fff;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.c-player--controls .play-btn:hover {
+  color: red;
+  background-color: inherit;
+}
+
+.c-player--audio{
+  width: 600px;
+}
+
+.c-player--controls .skip-btn {
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #888;
+  font-size: 18px;
+
+}
+.c-player--controls .skip-btn:hover {
+  transition: 0.5s ease-in-out;
+  transform: scale(1.1);
+  color: white;
+  background-color: inherit;
+}
+
