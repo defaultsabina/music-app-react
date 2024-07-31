@@ -5,7 +5,6 @@ Music App React is a web application that allows users to explore, play music tr
 
 <img src='mp1.png'/>
 ---
-<img src='mp2.png'/>
 
 # Technologies Used
 
