@@ -3,11 +3,11 @@ Music App React is a web application that allows users to explore, play music tr
 
 - a Music Player app as specified in the picture:
 
-<img src='../mp1.png'/>
+<img src='mp1.png'/>
 ---
-<img src='../mp2.png'/>
+<img src='mp2.png'/>
 
-#Technologies Used
+# Technologies Used
 
 - React: JavaScript library for building user interfaces.
 - React Router: Library for routing in React applications.
